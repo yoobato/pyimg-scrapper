@@ -32,7 +32,7 @@ if __name__ == '__main__':
     url = input('(1) Enter the URL: ')
 
     # Create new directory if not exists
-    download_dir_name = input('(2) Enter the name of directory save images: ')
+    download_dir_name = input('(2) Enter the name of directory where to save images: ')
     download_dir_path = f'./{download_dir_name}'
     Path(download_dir_path).mkdir(parents=True, exist_ok=True)
 
